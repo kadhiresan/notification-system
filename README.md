@@ -52,5 +52,5 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
 
 ### Contributions
 
-You are feel free to contribute for improvements
-If you find a bug, please file an issue. PR's are most welcome ;)	
+You are feel free to contribute for improvements. 
+PR's are most welcome ;)	
