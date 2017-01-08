@@ -5,28 +5,28 @@ Gossip Girl - notification system to notify subscribers of changes made in a mon
 A [Sails](http://sailsjs.org) [NodeJs](https://nodejs.org/en/) application
 
 ## Installation
-i am assuming you already installed node js, sails js, mongodb and npm in your system
+	i am assuming you already installed node js, sails js, mongodb and npm in your system
 
-1. Clone the repo
+	1. Clone the repo
 
-  ```bash
-    git clone https://github.com/kadhiresan/notification-system.git
-  ```
+	  ```bash
+	    git clone https://github.com/kadhiresan/notification-system.git
+	  ```
 
-2. Move to project folder
-  ```bash
-	cd notification-system
-  ```
+	2. Move to project folder
+	  ```bash
+		cd notification-system
+	  ```
 
-3. install all dependencies
-  ```bash
- 	 npm install
-  ```
+	3. install all dependencies
+	  ```bash
+	 	 npm install
+	  ```
 
-4. Run the project
-  ```bash
-  	sails lift
-  ```
+	4. Run the project
+	  ```bash
+	  	sails lift
+	  ```
 
 **Notes**
 
