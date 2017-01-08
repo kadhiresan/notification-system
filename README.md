@@ -34,8 +34,13 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
 	2. UI improvements
 	3. Need to add more functionality ... :)
 
-![alt tag](https://github.com/kadhiresan/notification-system/blob/master/assets/images/admin-home_page.png)
+**Admin Home**
+![alt tag](https://github.com/kadhiresan/notification-system/blob/master/assets/images/admin_home_page.png)
+
+**User Home**
+![alt tag](https://github.com/kadhiresan/notification-system/blob/master/assets/images/user_home_page.png)
 
 ### Contributions
 
+You are feel free to contribute for improvements
 If you find a bug, please file an issue. PR's are most welcome ;)	
