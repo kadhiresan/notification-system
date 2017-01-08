@@ -36,6 +36,8 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
 
 	Login with admin credential and create/edit the plan (channels)
 
+	Signup/Login with user and subscribe the channel so that will get notification - if admin change anything
+
 **Improvements**
 
 	1. User session management and jwt implementation
