@@ -1,0 +1,32 @@
+<!--
+  This will import the sails.io.js library bundled in your Sails app by default.
+  The bundled version embeds minified code for the Socket.io client as well.
+  One tick of the event loop after importing this script, a new "eager" socket
+  will automatically be created begin connecting unless you configure it not to.
+-->
+<script type="text/javascript" src="/js/dependencies/sails.io.js"></script>
+
+<script type"text/javascript">
+    io.socket.get('/hello?name=boss', function responseFromServer (body, response) {
+        console.log("The server responded with status " + response.statusCode + " and said: ", body);
+    });
+    // io.socket.get('/subscribeToFunRoom', function responseFromServer (body, response) {
+    //     console.log("TsubscribeToFunRoom =" + response + " and said: ", body);
+    // });
+
+    io.socket.on('user', function(event){
+        console.log('user', event);
+    })
+
+    io.socket.on('Fun', function(event){
+        console.log('Fun', event);
+    })
+
+    // io.socket.get('/subscribeToFunRoom', function(resData, jwres) {
+    //     console.log('/subscribeToFunRoom', resData);
+    // })
+
+    // io.socket.get('/getUserByName', function(resData, jwres) {
+    //     console.log('/getUserByName', resData);
+    // })
+</script>
