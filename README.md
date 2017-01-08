@@ -28,14 +28,13 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
   sails lift
   ```
 
-**what you will learn**
+**Improvements**
 
-	1. SailsJs basic api's creation
-	2. Angularjs setup in sails
-	3. Angularjs basic like module, controller, services and $scope
-	4. SailsJs localDiskDb usage and many more ..:)
+	1. User session management and jwt implementation
+	2. UI improvements
+	3. Need to add more functionality ... :)
 
-![alt tag](https://github.com/kadhiresan/todoApp-sailsJs/blob/master/assets/images/sailsjs-todo-app1.png)
+![alt tag](https://github.com/kadhiresan/notification-system/blob/master/assets/images/admin-home_page.png)
 
 ### Contributions
 
