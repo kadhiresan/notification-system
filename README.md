@@ -28,6 +28,14 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
   sails lift
   ```
 
+**Notes**
+
+	By default it will create admin account
+
+	Admin user name: admin and password: admin123
+
+	Login with admin credential and create/edit the plan (channels)
+
 **Improvements**
 
 	1. User session management and jwt implementation
