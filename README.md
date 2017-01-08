@@ -20,30 +20,13 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
 
 3. install all dependencies
   ```bash
-  npm install
+ 	 npm install
   ```
 
 4. Run the project
   ```bash
-  sails lift
-
-
-
-## MongoDB setup
-
-1. Start MongoDB with:
-
-  ```bash
-    mongod --replSet GossipGirl
+  	sails lift
   ```
-
-2. Start a mongo shell and configure mongo as follows:
-  ```bash
-	var config = {_id: "test", members: [{_id: 0, host: "127.0.0.1:27017"}]}
-	rs.initiate(config)
-  ```
-
-3. Once configuration is initiated then you can run the test
 
 **Notes**
 
