@@ -2,7 +2,7 @@
 =====================
 Gossip Girl - notification system to notify subscribers of changes made in a mongodb database in  real-time
 
-A [Sails](http://sailsjs.org) [Node](https://nodejs.org/en/) application
+A [Sails](http://sailsjs.org) [NodeJs](https://nodejs.org/en/) application
 
 ## Installation
 i am assuming you already installed node js, sails js, mongodb and npm in your system
@@ -15,7 +15,7 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
 
 2. Move to project folder
   ```bash
-	cd simpleIonicAppWithAPI
+	cd notification-system
   ```
 
 3. install all dependencies
@@ -27,14 +27,6 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
   ```bash
   sails lift
   ```
-
-**Note**
-
-	1. I am assuming you already installed node js and sails js
-	2. Do a git clone
-	3. Move to the folder
-	4. DO npm install
-	5. Start debugging
 
 **what you will learn**
 
