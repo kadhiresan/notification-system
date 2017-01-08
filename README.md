@@ -27,6 +27,8 @@ i am assuming you already installed node js, sails js, mongodb and npm in your s
   ```bash
   sails lift
 
+
+
 ## MongoDB setup
 
 1. Start MongoDB with:
