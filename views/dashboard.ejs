@@ -92,6 +92,7 @@ $( document ).ready(function() {
                     data: JSON.stringify(opts)
                 }).success(function(response){
                     console.log("response", response);
+                    location.reload();
                 }).error(function(err){
                     console.log("err", err);
                 });
@@ -105,6 +106,7 @@ $( document ).ready(function() {
                     data: JSON.stringify(opts)
                 }).success(function(response){
                     console.log("response", response);
+                    location.reload();
                 }).error(function(err){
                     console.log("err", err);
                 });
